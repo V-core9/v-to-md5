@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "prepack" : "npm run test" 
+    "prepack": "npm run test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/V-core9/v-to-md5.git"
   },
-  "keywords": ["md5","hashing", "md5 hash"],
+  "keywords": [
+    "md5",
+    "hashing",
+    "md5 hash"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
