@@ -10,9 +10,8 @@
   
     const v_to_md5 = require("v_to_md5");
 
-    console.log( v_to_md5("demo_password_123456") )
+    await v_to_md5("demo_password_123456") //-> returns hash : b9a0dc00aff156a2a5e915ba00a590ba  
     
-//-> returns hash : b9a0dc00aff156a2a5e915ba00a590ba
 
 📑 Related links :
 *   [v_to_sha256](https://www.npmjs.com/package/v_to_sha256) ⏭ v_to_sha256 hash generator
