@@ -1,7 +1,7 @@
 {
   "name": "v_to_md5",
-  "version": "1.0.13",
-  "description": "Generates MD5 hash value from a provided string or returns false in case of an error.",
+  "version": "1.0.14",
+  "description": "🔄 Generates MD5 hash value from a provided string or returns false in case of an error. Simple generator using Crypto.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -14,9 +14,15 @@
   "keywords": [
     "md5",
     "hashing",
-    "md5 hash"
+    "md5 hash",
+    "crypto",
+    "security",
+    "password",
+    "password hash",
+    "password hash",
+    "v-core9"
   ],
-  "author": "",
+  "author": "slavko.vuletic92@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/V-core9/v-to-md5/issues"
