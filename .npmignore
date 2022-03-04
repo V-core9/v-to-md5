@@ -1,0 +1,10 @@
+# FOLDERS
+node_modules
+coverage
+.vscode
+__tests__
+
+# FILES
+jest.config.js
+.jshintrc
+.editorconfig
