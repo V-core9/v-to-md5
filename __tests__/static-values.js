@@ -7,6 +7,11 @@ test("creates md5 hash from string 'demo_password_123456' ", async () => {
 });
 
 test("creates md5 hash from string '' ", async () => {
+  var data = await v_to_md5('');
+  expect(data).toBe(false);
+});
+
+test("creates md5 hash from empty ", async () => {
   var data = await v_to_md5();
   expect(data).toBe(false);
 });
