@@ -3,8 +3,13 @@ node_modules
 coverage
 .vscode
 __tests__
+.git
 
 # FILES
 jest.config.js
 .jshintrc
 .editorconfig
+.gitignore 
+coverage.png
+.editorconfig
+package-lock.json

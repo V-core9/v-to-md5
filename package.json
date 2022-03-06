@@ -1,6 +1,6 @@
 {
   "name": "v_to_md5",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "🔄 Generates MD5 hash value from a provided string or returns false in case of an error. Simple generator using Crypto.",
   "main": "index.js",
   "scripts": {
@@ -33,6 +33,6 @@
     "jest": "^27.3.1"
   },
   "dependencies": {
-    "v_is_empty_value": "^1.0.6"
+    "v_is_empty_value": "^1.0.7"
   }
 }
